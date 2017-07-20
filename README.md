@@ -19,7 +19,7 @@ The web app will return to the user a web form, and when the user has entered al
 
 ### Serving the user a form to input data
 
-In the source directory of the app (the folder with `flask_app.py`) create a folder called `static`.
+In the source directory of the app (the folder with `flask_app.py`) create a folder called `static`. This is where we can put files that we want to send to people from our flask app.
 Inside that folder create a file called `meetup.html`.
 
 The file structure so far should look like this:
