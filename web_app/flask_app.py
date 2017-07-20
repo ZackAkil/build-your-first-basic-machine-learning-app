@@ -36,9 +36,9 @@ def meetup_predictor():
 
     # Return message based on the prediction
     if prediction[0] == 1:
-    return 'You might survive! ' + probability_message
+        return 'You might survive! ' + probability_message
     else:
-    return 'You\'ll probebly die! ' + probability_message
+        return 'You\'ll probebly die! ' + probability_message
     
     
  
