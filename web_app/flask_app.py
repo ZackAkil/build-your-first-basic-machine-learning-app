@@ -7,7 +7,7 @@ from sklearn.externals import joblib
 app = Flask(__name__)
 app.debug = True
 
-clf = joblib.load('titanic_predictor.pkl')
+clf = joblib.load('mysite/titanic_predictor.pkl')
 
 @app.route('/')
 def hello_world():
