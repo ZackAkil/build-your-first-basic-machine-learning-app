@@ -73,7 +73,7 @@ def meetup_form():
 Now if we go to `http://[your user name].pythonanywhere.com/meetup` we should see our form.
 
 ### Adding our model
-In the source folder of our web app (the folder with flask_app.py), upload the pickle file of our model. 
+In the source folder of our web app (the folder with `flask_app.py`), upload the pickle file of our model. 
 
 The file structure so far should look like this:
 
